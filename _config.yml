@@ -1,57 +1,64 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: 日本Symfonyユーザー会
+description: 日本Symfonyユーザー会は、PHP製Webアプリケーションフレームワーク「Symfony」の日本におけるユーザーコミュニティです。Symfonyに関する情報の発信や勉強会の開催などを通して、これからSymfonyを導入しようと考えている人/企業、Symfonyをもっと深く学びたいと考えている人/企業、Symfonyの活用でつまずいている人/企業をサポートし、日本におけるSymfonyの活用を促進することを目的として活動しています。
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Symfony Japan
-email: 
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-  
-# url
+# Url
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: "/:categories/:year/:month/:day/:title.html"
+url: "https://symfony-japan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#url: "http://localhost:4000" # for dev
+permalink: pretty
 
-url: "symfony-japan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: symfony-japan
-github_username:  symfony-japan
+# Social
+social:
+  twitter: symfony_japan
+  facebook: SymfonyJapan
+  github: symfony-japan
+  connpass: symfony
 
-# Build settings
+# SEO
+# @see https://github.com/jekyll/jekyll-seo-tag
+logo: https://avatars.githubusercontent.com/u/34024636
+lang: ja_JP
+twitter:
+  username: symfony_japan
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://avatars.githubusercontent.com/u/34024636
+
+google_analytics: UA-28477336-8
+
+include:
+  - _pages
+
 markdown: kramdown
-# theme: symfony-japan
+kramdown:
+  input: GFM
+
+# Plugins
+# @see https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
 
 # Timezone
 timezone: Asia/Tokyo
 
-# endoding
+# Encoding
 encoding: utf-8
 
 sass:
-    sass_dir: _sass
-    
+  sass_dir: _sass
+  style: :compressed # or :expanded
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - LICENSE
+  - README.md
+  - _posts/drafts

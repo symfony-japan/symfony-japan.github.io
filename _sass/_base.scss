@@ -1,0 +1,25 @@
+@import "variables";
+
+// font-size of html will be the base font-size because "$font-size-base:1rem" is defined in bootstrap sass.
+html {
+    //font-size: 16px;
+    font-size: 14px;
+}
+
+body {
+    color: $color-text;
+    font-family: "Lato", Emoji, Arial, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    padding-top: 50px;
+}
+
+.bg-green {
+    background-color: $color-green !important;
+}
+
+.text-green {
+    color: $color-green;
+}
+
+a[class^=text-]:hover {
+    opacity: 0.7;
+}

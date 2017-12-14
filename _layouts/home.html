@@ -1,16 +1,27 @@
-<!DOCTYPE html>
-<html class="no-js">
-  <head>
+---
+layout: default
+---
 
-    {% include head.html %}
+<div id="home-cover" class="text-center" style="background-image:url('{{ site.baseurl }}/assets/img/home-cover.png')">
+    <h1><span>日本Symfonyユーザー会</span><br><small>#symfony_ja</small></h1>
+</div>
 
-  </head>
-  <body>
-    <div class="contents">
-    {% include header.html %}
-      {{ content }}
+<div id="content" class="home bg-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                {{ content }}
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <a class="twitter-timeline" href="https://twitter.com/hashtag/symfony_ja" data-widget-id="943182280549285888">#symfony_ja のツイート</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include edit-this-page.html %}
     </div>
-    {% include footer.html %}
-
-    </body>
-</html>
+</div>
