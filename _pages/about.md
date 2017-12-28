@@ -28,7 +28,7 @@ Twitterハッシュタグ [#symfony_ja](https://twitter.com/search?f=tweets&vert
 * [@ganchiku](https://twitter.com/ganchiku)
 * [@hanahiro_aze](https://twitter.com/hanahiro_aze)
 * [@hidenorigoto](https://twitter.com/hidenorigoto)
-* [@HIROCAST](https://twitter.com/HIROCAST)
+* [@HIROCASTER](https://twitter.com/HIROCASTER)
 * [@Kiske](https://twitter.com/Kiske)
 * [@kseta19](https://twitter.com/kseta19)
 * [@madapaja](https://twitter.com/madapaja)
