@@ -14,6 +14,7 @@ permalink: /companies
 * [タビィコム株式会社](https://tavii.co.jp/)
 * [株式会社フォトクリエイト](https://www.photocreate.co.jp/)
 * [ラクスル株式会社](https://corp.raksul.com/)
+* [ナイル株式会社](http://nyle.co.jp/)
 
 # 詳細な事例紹介
 
