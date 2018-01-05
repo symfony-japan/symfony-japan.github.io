@@ -12,6 +12,7 @@ permalink: /companies
 * [株式会社カルテットコミュニケーションズ](http://quartetcom.co.jp/recruit/engineer/)
 * [サイボウズスタートアップス株式会社](https://cstap.com/)
 * [タビィコム株式会社](https://tavii.co.jp/)
+* [ナイル株式会社](http://nyle.co.jp/)
 * [株式会社フォトクリエイト](https://www.photocreate.co.jp/)
 * [ラクスル株式会社](https://corp.raksul.com/)
 
