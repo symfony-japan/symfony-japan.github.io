@@ -9,6 +9,7 @@ permalink: /companies
 業務でSymfonyを採用している日本の企業を一覧でご紹介しています。<span class="text-muted">（会社名五十音順 ）</span>
 
 * [株式会社Ancar](http://ancar.co.jp/)
+* [UUUM株式会社](https://www.uuum.co.jp/)
 * [株式会社カルテットコミュニケーションズ](http://quartetcom.co.jp/recruit/engineer/)
 * [サイボウズスタートアップス株式会社](https://cstap.com/)
 * [タビィコム株式会社](https://tavii.co.jp/)
