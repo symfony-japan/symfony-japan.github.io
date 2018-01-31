@@ -44,6 +44,7 @@ Twitterハッシュタグ [#symfony_ja](https://twitter.com/search?f=tweets&vert
 * [@Ochiai_Cstap](https://twitter.com/Ochiai_Cstap)
 * [@polidog](https://twitter.com/polidog)
 * [@ttskch](https://twitter.com/ttskch)
+* [@unio_lssy](https://twitter.com/unio_lssy)
 
 会の目的に賛同していただける方であれば、どなたでも会のメンバーとして活動に参加していただけます。
 
