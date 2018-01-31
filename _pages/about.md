@@ -37,6 +37,7 @@ Twitterハッシュタグ [#symfony_ja](https://twitter.com/search?f=tweets&vert
 * [@n416](https://twitter.com/n416)
 * [@shishi4tw](https://twitter.com/shishi4tw)
 * [@uechoco](https://twitter.com/uechoco)
+* [@unio_lssy](https://twitter.com/unio_lssy)
 * [@yanchi](https://twitter.com/yanchi)
 * [@yuchimiri](https://twitter.com/yuchimiri)
 * [@kmusiclife](https://twitter.com/kmusiclife)
