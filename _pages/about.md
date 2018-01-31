@@ -37,6 +37,7 @@ Twitterハッシュタグ [#symfony_ja](https://twitter.com/search?f=tweets&vert
 * [@n416](https://twitter.com/n416)
 * [@shishi4tw](https://twitter.com/shishi4tw)
 * [@uechoco](https://twitter.com/uechoco)
+* [@unio_lssy](https://twitter.com/unio_lssy)
 * [@yanchi](https://twitter.com/yanchi)
 * [@yuchimiri](https://twitter.com/yuchimiri)
 * [@kmusiclife](https://twitter.com/kmusiclife)
@@ -44,7 +45,6 @@ Twitterハッシュタグ [#symfony_ja](https://twitter.com/search?f=tweets&vert
 * [@Ochiai_Cstap](https://twitter.com/Ochiai_Cstap)
 * [@polidog](https://twitter.com/polidog)
 * [@ttskch](https://twitter.com/ttskch)
-* [@unio_lssy](https://twitter.com/unio_lssy)
 
 会の目的に賛同していただける方であれば、どなたでも会のメンバーとして活動に参加していただけます。
 
