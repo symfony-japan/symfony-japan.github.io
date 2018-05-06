@@ -15,7 +15,7 @@ Symfonyのバージョン Symfony3.4.x
 * MySQL: 5.6
 
 サンプルコードはこちらからダウンロードできます。
-https://github.com/symfony-japan/symfony3_blog_tutorial
+<https://github.com/symfony-japan/symfony3_blog_tutorial>
 
 ## 1. Symfonyのインストールと設定
 
@@ -39,7 +39,7 @@ Symfonyをphpビルトインwebサーバーで立ち上げます
 $ bin/console server:start
 ```
 
-http://127.0.0.1:8000/ にアクセスしてみて wellcomeページが表示されればインストールは成功です。
+<http://127.0.0.1:8000/> にアクセスしてみて wellcomeページが表示されればインストールは成功です。
 
 
 念のためマシンのSymfonyの動作環境が整っているか確認します。
@@ -71,7 +71,7 @@ Note  The command console could use a different php.ini file
 OKと表示されていればひとまず動作させるのは問題はないでしょう。
 
 以下のURLにアクセスすることでも確認ができます。
-http://127.0.0.1:8000/config.php
+<http://127.0.0.1:8000/config.php>
 
 ## 2. ページの作成
 
@@ -101,7 +101,7 @@ class DefaultController extends Controller
 }
 ```
 
-Symfonyのルーティング設定はデフォルトではアノテーションでコントローラーに直接記述します。アノテーションとは `@Route(....)` と記述されている部分で、この場合 http://127.0.0.1:8000/ にアクセスすると `indexAction()` を実行するように、URLとアクションのマッピング行っています。
+Symfonyのルーティング設定はデフォルトではアノテーションでコントローラーに直接記述します。アノテーションとは `@Route(....)` と記述されている部分で、この場合 <http://127.0.0.1:8000/> にアクセスすると `indexAction()` を実行するように、URLとアクションのマッピング行っています。
 
 では、早速ブログ作成のためのブログコントローラーとそのページを作成してみましょう。
 
@@ -139,7 +139,7 @@ class BlogController extends Controller
 <h1>Blog posts</h1>
 ```
 
-http://127.0.0.1:8000/blog/ へアクセスしてみると「Blog posts」とタイトルが表示されているでしょう。
+<http://127.0.0.1:8000/blog/> へアクセスしてみると「Blog posts」とタイトルが表示されているでしょう。
 
 ## 3. エンティティ(モデル)の作成
 
@@ -294,7 +294,7 @@ class BlogController extends Controller
 
 以下のURLにアクセスしてみます。
 
-http://127.0.0.1:8000/blog/1
+<http://127.0.0.1:8000/blog/1>
 
 記事の詳細が表示されます。
 
@@ -581,13 +581,13 @@ index.html.twig に「新しい記事を書く」ボタンを設置
 ```
 {% endraw %}
 
-http://127.0.0.1:8000/blog/ へアクセスしてみます。
+<http://127.0.0.1:8000/blog/> へアクセスしてみます。
 
 <img width="842" alt="記事一覧" src="{{ site.baseurl }}/assets/img/tutorial/blog-list.png">
 
 「新しい記事を書く」ボタンが表示されたと思います。クリックしてみましょう。
 
-http://127.0.0.1:8000/blog/new へアクセスすると404 Not Found とエラーが表示されていましました。
+<http://127.0.0.1:8000/blog/new> へアクセスすると404 Not Found とエラーが表示されていましました。
 
 <img width="1045" alt="エラー" src="{{ site.baseurl }}/assets/img/tutorial/blog-new-error.png">
 
@@ -735,7 +735,7 @@ if ($form->isSubmitted() && $form->isValid()) {
 日本語でエラーメッセージが表示されていますね。
 
 もし、この他にどんなバリデーションを利用できるのか知りたければ一度公式のドキュメントに目を通してみるとよいでしょう。
-https://symfony.com/doc/3.4/validation.html#basic-constraints
+<https://symfony.com/doc/3.4/validation.html#basic-constraints>
 
 
 ## 10. 削除機能の作成
