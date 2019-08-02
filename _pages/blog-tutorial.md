@@ -244,7 +244,7 @@ Controllerの先頭でuse文を追記してますので注意して下さい。
 データベースにデータが入っていないので「No Posts」と表示されると思います。 それではデータベースにデータを入れてみます。
 
 ```sql
-mysql> INSERT INTO Post (title, content, createdAt, updatedAt) values ('初めての投稿', '初めての投稿です。', NOW(), NOW());
+mysql> INSERT INTO Post (title, content, created_at, updated_at) values ('初めての投稿', '初めての投稿です。', NOW(), NOW());
 ```
 
 再度アクセスすると追加した記事が表示されます。
@@ -647,6 +647,7 @@ public function showAction($id)
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
             // エンティティを永続化
+            $post = $form->getData();
             $post->setCreatedAt(new \DateTime());
             $post->setUpdatedAt(new \DateTime());
             $em = $this->getDoctrine()->getManager();
